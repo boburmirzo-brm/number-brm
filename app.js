@@ -29,14 +29,21 @@ Number.prototype.brm = function(type, rest=2){
 }
 
 let h1 = document.querySelector('#h1')
-let form = document.querySelector("#form")
-let input = document.querySelector("#input")
+let number = 12345.6789
 
-form.addEventListener("submit", (e)=>{
-    e.preventDefault()
-    h1.innerHTML = Number(input.value).brm("int", 3)
-    // h1.innerHTML = Number(input.value).brm("string")
-})
+// h1.innerHTML = number.brm()
+// result:  12 345.67
+
+// h1.innerHTML = number.brm("int")
+// result:  12 345.67
+
+h1.innerHTML = number.brm("int", 0)
+// result:  12 345
+
+// h1.innerHTML = number.brm("string")
+// result:  12.3 k
+
+
 
 
 
