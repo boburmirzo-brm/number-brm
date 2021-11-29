@@ -1,2 +1,2 @@
 # number-brm
-google uchun <a href="https://google.com"></a>
+google uchun <a href="https://google.com">google</a>
